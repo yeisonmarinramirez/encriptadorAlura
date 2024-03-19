@@ -1,0 +1,138 @@
+*{
+    background-color: rgb(253, 255, 240);
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+}
+
+
+.logo {
+   padding-top: 3px;
+   margin-left: 3px;
+   width: 3%;
+}
+main {
+
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.text-area{
+    background-image: url("imagenes/vector2.png");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 12px;
+    color: rgb(244, 12, 12);
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-bottom: 40px ;
+    text-transform: lowercase;
+    text-align:center;    
+    font-size: large;
+}
+
+::placeholder{color:rgb(141, 23, 13);}
+ .text-area:focus{
+    outline: none;
+    
+ }
+
+ .informacion{
+   color: rgb(152, 147, 147);
+   margin: 10px;
+}
+
+ .mensaje{
+       
+    background-image: url("imagenes/CUADRO_VECTOR-removebg-preview.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align:center;   
+    border: none;
+    border-radius: 12px;
+    color: rgb(244, 12, 12);
+    width: 350px;
+    height: 396px;
+    font-size: large;
+
+ }
+ .mensaje:focus{
+    outline: none;
+ }
+ .botones{
+    display: flex;
+    margin-top: 18px;
+
+ }
+
+ .btn-desencriptar{
+    background: rgba(254, 27, 19, 0.696);
+    border: none;
+    border-radius: 24px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 10px;
+    width: 328px;
+    margin-top: 10px;
+ }
+ .btn-desencriptar:hover{
+   transition: 1s;
+   backdrop-filter: blur(5px);
+   background: rgba(255, 0, 102, 0.546);
+   -webkit-backdrop-filter: blur(5px);
+   border-radius:20px;
+   color: rgb(255, 0, 0);
+   border: none;
+   transform: scale(1.1);
+}
+ 
+.btn-encriptar{
+    background-color: rgba(255, 0, 0, 0.393);
+    border:none;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-top: 10px;
+}
+.btn-encriptar:hover{
+   transition: 1s;
+   backdrop-filter: blur(5px);
+   background: rgba(255, 0, 102, 0.411);
+   -webkit-backdrop-filter: blur(5px);
+   border-radius:20px;
+   color: rgb(255, 0, 0);
+   border: none;
+   transform: scale(1.1);
+}
+
+.copiar{
+    background: rgba(255, 0, 0, 0.772);
+    border: none;
+    border-radius: 24px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 10px;
+    margin-top: 17px;
+    margin-bottom: 100px;
+    
+
+}
+.copiar:hover{
+   transition: 1s;
+   backdrop-filter: blur(5px);
+   background: rgba(255, 0, 102, 0.815);
+   -webkit-backdrop-filter: blur(5px);
+   border-radius:20px;
+   color: rgb(99, 40, 40);
+   border: none;
+   transform: scale(1.1);
+}
